@@ -29,3 +29,18 @@ Deleting this value will disable this feature.
 
 ### This is another set and forget plugins
 
+#### Requirements
+
+This plugin needs Joomla! version 3.5.
+
+#### Limitations
+
+FTP uploads may not trigger this plugin
+
+#### License
+
+GPL
+
+#### Author
+
+Dimitris Grammatikogiannis (aka dgt41)
