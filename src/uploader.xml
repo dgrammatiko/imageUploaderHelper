@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>info@upshift.gr</authorEmail>
 	<authorUrl>www.upshift.gr</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>PLG_CONTENT_UPLOADER_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="uploader">uploader.php</filename>
@@ -17,6 +17,8 @@
 		<language tag="en-GB">languages/en-GB.plg_content_uploader.sys.ini</language>
 		<language tag="el-GR">languages/el-GR.plg_content_uploader.ini</language>
 		<language tag="el-GR">languages/el-GR.plg_content_uploader.sys.ini</language>
+		<language tag="fr-FR">languages/fr-FR.plg_content_uploader.ini</language>
+		<language tag="fr-FR">languages/fr-FR.plg_content_uploader.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
