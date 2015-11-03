@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_uploader</name>
+	<author>Dimitris Grammatikogiannis</author>
+	<creationDate>November 2015</creationDate>
+	<copyright>Copyright (C) 2015 Dimitris Grammatikogiannis. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@upshift.gr</authorEmail>
+	<authorUrl>www.upshift.gr</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_UPLOADER_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="uploader">uploader.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_uploader.ini</language>
+		<language tag="en-GB">en-GB.plg_content_uploader.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="note1" type="note" class="alert alert-info" label="PLG_CONTENT_UPLOADER_FOLDER_LABEL" description="PLG_CONTENT_UPLOADER_NOTE1_DESC" />
+				<field name="folder"
+				       type="text"
+				       default="uploads"
+				       description="PLG_CONTENT_UPLOADER_FOLDER_DESC"
+				       label="PLG_CONTENT_UPLOADER_FOLDER_LABEL"
+				       filter="word"
+				>
+				</field>
+				<field name="note2" type="note" class="alert alert-warning" label="PLG_CONTENT_UPLOADER_MAXWIDTH_LABEL" description="PLG_CONTENT_UPLOADER_NOTE2_DESC" />
+				<field name="maxwidth"
+				       type="number"
+				       default="600"
+				       description="PLG_CONTENT_UPLOADER_MAXWIDTH_DESC"
+				       label="PLG_CONTENT_UPLOADER_MAXWIDTH_LABEL"
+				       filter="integer"
+				>
+				</field>
+				<field name="note3" type="note" class="alert alert-danger" label="PLG_CONTENT_UPLOADER_QUALITY_LABEL" description="PLG_CONTENT_UPLOADER_NOTE3_DESC" />
+				<field name="quality"
+				       type="number"
+				       default="75"
+				       description="PLG_CONTENT_UPLOADER_QUALITY_DESC"
+				       label="PLG_CONTENT_UPLOADER_QUALITY_LABEL"
+				       filter="integer"
+				>
+				</field>
+				<field name="note4" type="note" class="alert alert-waring" label="PLG_CONTENT_UPLOADER_PASSTHROUGH_LABEL" description="PLG_CONTENT_UPLOADER_NOTE4_DESC" />
+				<field name="passthrough"
+				       type="text"
+				       default="raw"
+				       description="PLG_CONTENT_UPLOADER_PASSTHROUGH_DESC"
+				       label="PLG_CONTENT_UPLOADER_PASSTHROUGH_LABEL"
+				       filter="word"
+				>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
