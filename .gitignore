@@ -1,0 +1,22 @@
+
+# Packages #
+*.zip
+*.tar.*
+
+# Packages directories #
+/build/packages
+/build/packaging
+/build/releases
+
+# Build #
+/build/logs
+
+# IDE & System #
+.buildpath
+.project
+.settings
+.DS_Store
+.idea
+
+# Composer Install #
+/vendor
